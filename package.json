@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./index.js",
-    "ui": "browser-sync start --config bs-config.js"
+    "dev": "nodemon index.js",
+    "start": "./node_modules/.bin/netlify-lambda serve .",
+    "build": "node index.js"
   },
   "keywords": [
     "index"
