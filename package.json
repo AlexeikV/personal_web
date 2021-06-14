@@ -1,5 +1,5 @@
 {
-  "name": "personal web",
+  "name": "personal_web",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,9 @@
   "description": "",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^3.0.2"
+    "netlify-lambda": "^2.0.8",
+    "pug": "^3.0.2",
+    "serverless-http": "^2.7.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
