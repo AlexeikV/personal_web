@@ -24,11 +24,11 @@ app.use(express.static(path.join(__dirname, "public")));
  * Routes Definitions
  */
 app.get("/", (req, res) => {
-    res.render("index", { title: "Home" });
+    res.render("index", { title: "Inicio" });
 });
 
 app.get("/user", (req, res) => {
-    res.render("user", { title: "Profile", userProfile: { nickname: "Alexeik" } });
+    res.render("user", { title: "Perfil", userProfile: { nickname: "Alexeik" } });
 });
 
 /**
